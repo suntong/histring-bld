@@ -1,3 +1,20 @@
+histring (1.1.1-3) unstable; urgency=low
+
+  * fix build, modernize Autotools
+
+ -- Tong Sun <suntong001@users.sourceforge.net>  Sun, 17 May 2026 18:51:33 -0400
+
+histring (1.1.1-2) unstable; urgency=low
+
+  * update to automake .17
+  * fix debian-watch-file-is-missing by providing one
+  * fix grammatical errors in histring
+  * move the manpage out of the Debian directory for other distros
+  * use "optional" instead of "extra" for the priority of the package
+  * fix deprecated-configure-filename by renaming configure.in to configure.ac
+
+ -- Tong Sun <suntong@cpan.org>  Sun, 14 Sep 2025 16:49:55 -0400
+
 histring (1.1.1-1) unstable; urgency=low
 
   * Debianized upstream from scratch
